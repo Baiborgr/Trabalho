@@ -1,0 +1,31 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+ -fx-background-color: #5d6273;
+}
+.botao{
+    -fx-font-size:16px;
+    -fx-font-family:"Eras Bold ITC";
+    -fx-background-color: white;
+     -fx-border-radius: 5px; 
+}
+.botao:hover{
+    -fx-background-color: black;
+    -fx-text-fill: #fff;
+}
+.tfutebol {
+   -fx-font-family:"Eras Bold ITC";
+   -fx-font-size:70px; 
+   -fx-text-fill:#fff;
+}
+.campotexto{
+    -fx-background-color:white;
+    -fx-font-size: 15px; 
+   -fx-border-radius:3px;
+}
+.campotexto:focused{
+    -fx-border-color:red;
+    -fx-border-width: 2px;
+}
